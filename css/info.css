@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-weight: 400;
+    color: #fff;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    background: #333333;
+;
+}
+
+hr{
+    border-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width:100%;
+}
+
+.container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+header{
+    margin: 19px 29px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+header img.logo{
+    width: 55px;
+    height: 49px;
+}
+
+.btn{
+    align-items: right;
+    width: 45px;
+    height: 45px;
+}
+
+
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+header nav ul li:not(:last-child){
+    margin-right: 100px;
+}
+
+header nav ul li a{
+    color: #fff;
+    font-size: 32.8px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+header nav ul li::after{
+    content: "";
+    height: 5px;
+    width: 0;
+    background-color: #a00000;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transition: all .2s linear;
+}
+
+header nav ul li:hover::after{
+    left: 0;
+    width: 100%;
+}
+
+header nav ul li a{
+        align-items: center;
+}
+
+.hero{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+h1{
+    text-align: center;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 52.48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    width: 406;
+    height: 64;
+    margin: 70px 0;
+}
+
+.section{
+    display: flex;
+    margin: 70px 0;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32.8px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 30px;
+}
+

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-weight: 400;
+    background-image: url( ../img/fon.png);
+    color: #fff;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    display: flex;
+}
+
+.conteiner{
+    align-items: center;
+    margin: 11% 41%;
+}
+img{
+    height: 300px;
+    width: 340px;
+}
+
+h1{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 52.48px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+div.btn{
+    background: #fff;
+    padding: 9px 15px;
+    border-radius: 18px;
+    transition: all 1s ease;
+}
+
+p{
+    font-size: 52px;
+    font-weight: 400;
+    color: #7E3031;
+    text-align: center;
+}
+
+div.btn:hover{
+    background: #7E3031;
+    p{
+        color:#fff;
+    }
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/lud.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Палетный лудоман</title>
+</head>
+<body>
+     <header class="container">
+        <img src="img/logo.png" alt="" class="logo">
+        <nav>
+            <ul class="nav">
+                <li><a href="index.html">Главное</a></li>
+                <li><a href="info.html">О нас</a></li>
+            </ul>
+        </nav>
+        <p>скиньте мне денег,<br> пожалуйста</p>
+    </header>
+    <hr>
+    <div class="hero container section">
+        <img src="img/palete.png" alt="" class="hero--img">
+        <div class="hero--info">
+            <h2 class="text">Палетный лудоман</h2>
+        </div>
+    </div>
+    <hr>
+    <div class="container cond section">
+        <div class="kart">
+            <a href="#" data-name="David"><img src="img/david.png" alt="David"></a>
+            <a href="#" data-name="Illla"><img src="img/illla.png" alt="Illla"></a>
+            <a href="#" data-name="Mixalich"><img src="img/mixalich.png" alt="Mixalich"></a>
+            <a href="#" data-name="Roma"><img src="img/roma.png" alt="Roma"></a>
+            <a href="#" data-name="Sem"><img src="img/sem.png" alt="Sem"></a>
+        </div>
+        <div id="message" class="message"></div>
+    </div>
+    <form id="voteForm" action="https://formspree.io/f/xdaolvvy" method="POST" style="display: none;">
+        <input type="hidden" name="candidate" id="candidateInput">
+        <input type="hidden" name="_subject" value="Новый голос: Палетный лудоман 2025">
+        <input type="hidden" name="_replyto" value="no-reply@tilt-goda.ru">
+        <input type="text" name="_gotcha" style="display:none"> 
+    </form>
+    <script src="js/lud.js"></script>
+</body>
+</html>
